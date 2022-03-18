@@ -1,0 +1,31 @@
+input[type=text],input[type=submit],input[type=password],input[type=checkbox],select,option{
+    padding : 5px;
+    margin : 5px; 
+    
+}
+
+label{
+    padding-right : 25px;
+    
+}
+
+input[type=text],input[type=password]{
+    width : 200px;
+}
+
+#commentaireForm{
+    width : 100%;
+    height : 70px;
+}
+
+input[type=submit]
+{
+    background-color: #524c4c;
+    color: #ffffff;
+}
+
+input[type=submit]:active
+{
+    background-color: #ffffff;
+    color: #524c4c;
+}
