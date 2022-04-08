@@ -3,6 +3,8 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
     $root="..";
 }
 
+require_once("$root/dal/bd.horaires.inc.php");
+
 // creation du menu burger
 $burgerMenu = array();
 $burgerMenu[] = Array("url"=>"./index.php?objet=site&action=presentation","label"=>"Presentation");
@@ -29,6 +31,8 @@ switch($action) {
     case 'item1':
         // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
         // affichage de la vue
+        $horaires = getHoraires();
+
         include "$root/view/site/pageEnCoursConstruction.html.php";
         break;
 

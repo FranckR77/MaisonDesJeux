@@ -33,3 +33,4 @@ insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Uno', 'Uno.png', 
 insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Coatl', 'Coatl.png', '10+', 1);
 insert into jeu (nom, lienimage, trancheage, nbpoint) values ('6 qui prend', '6QuiPrend.png', '6+', 2);
 insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Au creux de ta main', 'AuCreuxDeTaMain.png', '10+', 2);
+
