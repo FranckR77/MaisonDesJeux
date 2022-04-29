@@ -1,4 +1,4 @@
-<?php $title = " Welcome to Hackat'Web"; ?>
+<?php $title = " La maison des GOAT"; ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -20,7 +20,7 @@
 <body>
     <nav>
         <ul id="menuGeneral">
-            <li><a href="./index.php?object=site&action=presentation">Home</a></li>
+            <li><a href="./index.php?object=site&action=presentation">Accueil</a></li>
             <li><a href="./index.php?object=jeu&action=all">Catalogue de jeux</a></li>
         </ul>
     </nav>

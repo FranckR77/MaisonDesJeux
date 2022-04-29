@@ -6,7 +6,7 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
 // creation du menu burger
 $burgerMenu = array();
 $burgerMenu[] = Array("url"=>"./index.php?objet=site&action=presentation","label"=>"Presentation");
-$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=item1","label"=>"Item1");
+$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=item1","label"=>"item1");
 
 // recuperation de l'action
 if (isset($_GET["action"])){

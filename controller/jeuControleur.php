@@ -37,7 +37,7 @@ switch($action) {
 
         // 1 - Recuperation de l'identifiant du jeu
         $idJeu = $_GET['id'];
-
+        $jeu = getUnJeu($idJeu);
         // TODO: A compléter
         // 2 - Récupération des infos du jeu
         // 3 - Affichage des infos du jeu
