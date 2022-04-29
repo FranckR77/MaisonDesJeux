@@ -5,7 +5,7 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
     $root="..";
 }
 
-function getJeux() : array {
+function getJeux() : ?array {
 
     $cnx = connexionBDD();
     $req = pg_query($cnx, "SELECT * FROM jeu");
@@ -14,7 +14,6 @@ function getJeux() : array {
 
     return $resultat;
 }
-
 
 if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
     // prog principal de test

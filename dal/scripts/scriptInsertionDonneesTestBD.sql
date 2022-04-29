@@ -1,4 +1,4 @@
-insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Awalé', 'Awale.png', '8+', 2);
+insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Awalé', 'Awale.png', '8+', 2,);
 insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Puluc', 'Puluc.png', '8+', 2);
 insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Jeux de go', 'Go.png', '8+', 2);
 insert into jeu (nom, lienimage, trancheage, nbpoint) values ('Hanabi', 'Hanabi.png', '8+', 3);
