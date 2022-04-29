@@ -4,7 +4,14 @@
 <?php
 
 FOREACH ($horaires as $horaire) {
-    echo '<li>' . $horaire['jour'] . '</li>';
+    if ($horaire['horrairefermetureapresmidi'] == False) {
+        echo '<li>' . $horaire['jour'], " : ". '</li>';
+        echo '<p>'. "Matin : ",$horaire['horraireouverturematin'], " - ", $horaire['horrairefermeturematin']. '</p>';
+    } else {
+        echo '<li>' . $horaire['jour'], " : ". '</li>';
+        echo '<p>'. "Matin : ",$horaire['horraireouverturematin'], " - ", $horaire['horrairefermeturematin']. '</p>';
+        echo '<p>'."Après-midi : ",$horaire['horraireouvertureapresmidi'], " - ", $horaire['horrairefermetureapresmidi']. '</p>';
+    }
 }
 ?>
 
