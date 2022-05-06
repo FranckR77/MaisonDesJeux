@@ -8,7 +8,7 @@ require_once("$root/dal/bd.horaires.inc.php");
 // creation du menu burger
 $burgerMenu = array();
 $burgerMenu[] = Array("url"=>"./index.php?objet=site&action=presentation","label"=>"Presentation");
-$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=item1","label"=>"Item1");
+$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=item1","label"=>"Horaires");
 
 // recuperation de l'action
 if (isset($_GET["action"])){

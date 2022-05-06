@@ -1,6 +1,6 @@
 <?php include "$root/view/header.html.php"; ?>
 
-    <h1>Horaires</h1>
+    <div id="accroche">Horaires</div>
 <?php
 
 FOREACH ($horaires as $horaire) {
