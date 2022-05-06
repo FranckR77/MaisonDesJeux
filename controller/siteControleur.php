@@ -5,8 +5,9 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
 
 // creation du menu burger
 $burgerMenu = array();
-$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=presentation","label"=>"Presentation");
-$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=item1","label"=>"item1");
+$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=presentation","label"=>"Page d'acceuil");
+$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=horaire","label"=>"Horaires");
+$burgerMenu[] = Array("url"=>"./index.php?objet=site&action=tarif","label"=>"Tarifs d'adhésion");
 
 // recuperation de l'action
 if (isset($_GET["action"])){
@@ -26,10 +27,16 @@ switch($action) {
         include "$root/view/site/sitePresentation.html.php";
         break;
 
-    case 'item1':
+    case 'horaire':
         // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
         // affichage de la vue
-        include "$root/view/site/pageEnCoursConstruction.html.php";
+        include "$root/view/site/horaire.html.php";
+        break;
+
+    case 'tarif':
+        // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
+        // affichage de la vue
+        include "$root/view/site/tarif.html.php";
         break;
 
     default:

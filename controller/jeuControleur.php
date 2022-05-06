@@ -48,7 +48,7 @@ switch($action) {
     case 'item1':
         // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
         // affichage de la vue
-        include "$root/view/jeu/pageEnCoursConstruction.html.php";
+        include "$root/view/jeu/horaire.html.php";
         break;
 
     default:
