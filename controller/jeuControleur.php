@@ -37,7 +37,7 @@ switch($action) {
 
         // 1 - Recuperation de l'identifiant du jeu
         $idJeu = $_GET['id'];
-
+        $jeu = getUnJeu($idJeu);
         // TODO: A compléter
         // 2 - Récupération des infos du jeu
         // 3 - Affichage des infos du jeu
@@ -48,7 +48,7 @@ switch($action) {
     case 'item1':
         // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
         // affichage de la vue
-        include "$root/view/jeu/pageEnCoursConstruction.html.php";
+        include "$root/view/jeu/horaire.html.php";
         break;
 
     default:

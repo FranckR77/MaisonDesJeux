@@ -1,6 +1,8 @@
 <?php include "$root/view/header.html.php"; ?>
 
-    <h1>Page en cours de construction</h1>
+    <div>Page en construction...</div>
+
+<p></p>
 
 <?php include "$root/view/footer.html.php";
 
