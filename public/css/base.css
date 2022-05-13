@@ -107,7 +107,10 @@ nav {
     width:100%;
     height:var(--hauteurMenuGene);
     z-index:100;
+
 }
+
+
 
 #menuGeneral {
     text-align : center;
@@ -131,6 +134,12 @@ nav {
     vertical-align: middle;
     line-height:60px;
 }
+
+#placeLogoutButton{
+
+    float: right;
+}
+
 
 #menuGeneral>li:hover{
     background-color : rgba(255,255,255,0.1);
@@ -206,6 +215,7 @@ nav {
 }
 
 
+
 #menuContextuel:hover ~ #corps {
     left : calc((100% - var(--largeurPage)) / 2 + 100px);
 }
@@ -227,3 +237,4 @@ nav {
 #alerte{
     background-color: #FC2500;
 }
+
