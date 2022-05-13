@@ -7,6 +7,7 @@
     --largeurMenuCont : 200px;
     --margeCalc: calc((100% - var(--largeurPage)) / 2);
     --margeMenuHaut : 15px;
+    --margeMenuBas : 30px;
     --hauteurMenuGene:60px;
     --hauteurFooter:60px;
     --coulA1:#5A7694;
@@ -110,6 +111,7 @@ nav {
     z-index:100;
 }
 
+
 #menuGeneral {
     text-align : center;
     width : calc(var(--largeurPage) + 220px + var(--padding_cote) + 2px);
@@ -123,16 +125,24 @@ nav {
 
 #footer {
     text-align: center ;
-    vertical-align: middle;
+    position : fixed;
     width : calc(var(--largeurPage) + 220px + var(--padding_cote) + 2px);
     height : var(--hauteurFooter);
     background-color : rgba(45,45,45,0.9);
     color : #fff;
-    margin: 45% auto;
+    margin: 45% 20%;
     box-shadow: 0px 0px 6px #999;
+    padding: 10px;
+}
 
-    border-radius: 3px;
 
+#mentions {
+    width: 45%;
+    float: left;
+
+}
+a {
+    color : #ffffff;
 }
 #menuGeneral{
     list-style-type: none;

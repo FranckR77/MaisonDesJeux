@@ -9,6 +9,8 @@ $objects["default"] = "siteControleur.php"; // définition d'un controleur par d
 
 $objects["site"] = "siteControleur.php";
 $objects["jeu"] = "jeuControleur.php";
+$objects["mentionsLegales"] = "mentionsLegales.html.php";
+$objects["rgpd"] = "rgpd.html.php";
 
 
 // Analyse de l'URL 

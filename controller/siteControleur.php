@@ -38,7 +38,22 @@ switch($action) {
 
     default:
         include "$root/view/error/400.html.php";
+
+
+    case 'mentionsLegales':
+        // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
+        // affichage de la vue
+
+
+        include "$root/view/site/mentionsLegales.html.php";
+        break;
+
+    case 'rgpd':
+        // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
+        // affichage de la vue
+
+
+        include "$root/view/site/rgpd.html.php";
+        break;
+
 }
-
-
-?>

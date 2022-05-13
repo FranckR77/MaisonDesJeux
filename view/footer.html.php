@@ -1,23 +1,18 @@
-<html>
-<head>
+</div>
 
-</head>
-<body>
-
-</body>
-
-<footer>
-
-    <style type="text/css">
-        @import url("public/css/base.css");
-        @import url("public/css/form.css");
-        @import url("public/css/corps.css");
-    </style>
     <link rel="stylesheet" href="public/css/base.css">
-    <nav>
+    <footer>
+
         <ul id="footer">
-        <p>©Maison du jeu</p>
+            <p>©Maison du jeu</p>
+            <ul id="mentions">
+                <a href="./index.php?objet=site&action=rgpd"> RGPD  </a>
+            </ul>
+            <ul id="mentions">
+                <a href="./index.php?objet=site&action=mentionsLegales"> mentions Légales </a>
+            </ul>
         </ul>
-    </nav>
-</footer>
+
+    </footer>
+</body>
 </html>
