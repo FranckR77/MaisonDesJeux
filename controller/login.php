@@ -60,15 +60,6 @@ if(isset($_POST['connexion'])){
             <input type="submit" name='connexion' value='LOGIN' >
     </form>
 
-
-    <div>
-
-a faire connexion
-
-    </div>
-
-
-
         </div>
 
 </html>
